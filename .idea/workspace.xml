@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b59fd54f-fc71-43a1-afb9-c24cc64628fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/EndPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/EndPane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hangman/MyScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/MyScene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hangman/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/MyScene.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
-              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+              <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -28,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EndPane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="527">
               <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
             </state>
           </provider>
@@ -37,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="289">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -74,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/ButtonPanes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -101,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/second-pane.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -141,7 +139,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="295" />
-    <option name="y" value="-24" />
+    <option name="y" value="-25" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -174,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554922898774" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554922926476" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -225,7 +223,8 @@
       <updated>1554854967874</updated>
       <workItem from="1554854970460" duration="1798000" />
       <workItem from="1554886241406" duration="1935000" />
-      <workItem from="1554893988288" duration="12989000" />
+      <workItem from="1554893988288" duration="13034000" />
+      <workItem from="1554923562917" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="Added styling">
       <created>1554898472466</created>
@@ -255,17 +254,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554922435669</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Icon">
+      <created>1554922939499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554922939499</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16722000" />
+    <option name="totallyTimeSpent" value="17476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1819" height="1178" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2558272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2586697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -274,7 +280,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49971575" weight="0.3298279" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4945992" visible="true" weight="0.3288719" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4940307" visible="true" weight="0.3288719" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49744174" weight="0.39961758" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,7 +289,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49971575" weight="0.3298279" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5054008" side_tool="true" visible="true" weight="0.3288719" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5059693" side_tool="true" visible="true" weight="0.3288719" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49971575" weight="0.3298279" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -302,28 +308,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added styling" />
     <MESSAGE value="Added new words" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new words" />
+    <MESSAGE value="Added Icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Icon" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ThirdPane.java" />
     <entry file="file://$PROJECT_DIR$/src/WordPane.java" />
     <entry file="file://$PROJECT_DIR$/src/GuessBoxPane.java" />
-    <entry file="file://$PROJECT_DIR$/src/test.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstPane.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/FirstPane.fxml" />
     <entry file="file://$PROJECT_DIR$/src/HangmanPane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -338,37 +331,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/second-pane.css">
+    <entry file="file://$PROJECT_DIR$/src/MyScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styling.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ButtonPanes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="765">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EndPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="527">
           <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
@@ -394,17 +366,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyScene.java">
+    <entry file="file://$PROJECT_DIR$/src/ButtonPanes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        <state relative-caret-position="85">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styling.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second-pane.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="289">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
