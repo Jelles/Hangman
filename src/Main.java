@@ -12,7 +12,7 @@ public class Main extends Application {
         MyScene scene = new MyScene();
         stage.setScene(scene);
         stage.setResizable(false);
-        stage.setTitle("Test");
+        stage.setTitle("Hangman");
         stage.show();
     }
 }
