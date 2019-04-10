@@ -11,6 +11,7 @@ public class ButtonPanes extends TilePane {
     private WordPane wordPane;
 
     public ButtonPanes(WordPane wordPane){
+        getStylesheets().add("button-panes.css");
         this.wordPane = wordPane;
         panes = new ArrayList<Pane>();
         for(char x = 'a'; x <= 'z'; x++){

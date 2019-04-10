@@ -14,6 +14,7 @@ public class HangmanPane  extends Pane {
         this.scene = scene;
         shapes = new Shape[10];
         initShapes();
+        setShapesColor(Color.WHITE);
     }
 
     // 9 Tries
@@ -41,6 +42,12 @@ public class HangmanPane  extends Pane {
         }
         getChildren().add(shapes[turn]);
         turn++;
+    }
+
+    private void setShapesColor(Color color){
+        for(Shape x : shapes){
+            x.setFill(color);
+        }
     }
 
     private void initShapes(){

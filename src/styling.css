@@ -1,0 +1,25 @@
+Button{
+    -fx-text-fill: white;
+    -fx-background-color: #1F487E;
+    -fx-max-height: 200px;
+    -fx-font-size: 20px;
+}
+Button:hover{
+    -fx-background-color: #6290C8;
+}
+BorderPane{
+    -fx-background-color:#1D3461;
+}
+Text{
+    -fx-fill: white;
+}
+TextField{
+    -fx-background-color: #6290C8;
+    -fx-text-fill: white;
+}
+Line, Circle{
+    -fx-stroke:#6290C8;
+}
+Circle{
+    -fx-fill:#1F487E;
+}

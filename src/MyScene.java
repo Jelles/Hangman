@@ -15,11 +15,11 @@ public class MyScene extends Scene {
     private EndPane endPane;
 
     public MyScene() {
-        super(new Pane(), 400,600);
+        super(new Pane(), 400, 600);
         reset();
     }
 
-    private void reset(){
+    private void reset() {
         wordList = new ArrayList<String>();
         initWordList();
         rootPane = new BorderPane();
@@ -31,7 +31,7 @@ public class MyScene extends Scene {
         setRoot(rootPane);
     }
 
-    private void initWordList(){
+    private void initWordList() {
         wordList.add("cheese");
         wordList.add("apple");
         wordList.add("horse");
@@ -41,7 +41,7 @@ public class MyScene extends Scene {
         wordList.add("mouse");
     }
 
-    public String getRandomWord(){
+    public String getRandomWord() {
         Random rnd = new Random();
         return wordList.get(rnd.nextInt(wordList.size()));
     }
@@ -50,31 +50,31 @@ public class MyScene extends Scene {
         System.exit(0);
     }
 
-    public EndPane getEndPane(){
+    public EndPane getEndPane() {
         return this.endPane;
     }
 
-    public ThirdPane getThirdPane(){
+    public ThirdPane getThirdPane() {
         return this.thirdPane;
     }
 
-    public HangmanPane getHangmanPane(){
+    public HangmanPane getHangmanPane() {
         return this.thirdPane.getHangmanPane();
     }
 
-    public void setWon(){
+    public void setWon() {
         getEndPane().setWon(getThirdPane().getWordPane().getRandomWord());
     }
 
-    public void setLost(){
+    public void setLost() {
         getEndPane().setLost(getThirdPane().getWordPane().getRandomWord());
     }
 
-    public void end(){
+    public void end() {
         rootPane.setCenter(endPane);
     }
 
-    public void home(){
+    public void home() {
         rootPane.setCenter(firstPane);
         reset();
     }

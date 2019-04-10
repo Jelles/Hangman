@@ -1,4 +1,6 @@
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -9,8 +11,10 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
+
         MyScene scene = new MyScene();
         stage.setScene(scene);
+        scene.getStylesheets().add("styling.css");
         stage.setResizable(false);
         stage.setTitle("Hangman");
         stage.show();

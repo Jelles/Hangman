@@ -42,10 +42,10 @@ public class EndPane extends BorderPane {
 	}
 
 	public void setLost(String word) {
-		gameStatus.setText("Sadly you lost the game..\n Better luck next time!\n\n The word was: " + word);
+		gameStatus.setText("Sadly you lost the game..\nBetter luck next time!\n\nThe word was: " + word);
 	}
 
 	public void setWon(String word) {
-		gameStatus.setText("You've won the game.\n Congratulations! \n\n The word was: " + word);
+		gameStatus.setText("You've won the game.\nCongratulations!\n\nThe word was: " + word);
 	}
 }

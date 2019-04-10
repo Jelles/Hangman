@@ -9,10 +9,11 @@ public class FirstPane extends BorderPane {
         BorderPane botPane = new BorderPane();
 
         Button startButton = new Button();
+        startButton.getStyleClass().add("button1");
         Button quitButton = new Button();
 
-        startButton.setMaxSize(250, 60);
-        quitButton.setMaxSize(250, 60);
+        startButton.setMaxSize(400, 0);
+        quitButton.setMaxSize(400, 0);
         startButton.setPadding(new Insets(20,20,20,20));
         quitButton.setPadding(new Insets(20,20,20,20));
 
