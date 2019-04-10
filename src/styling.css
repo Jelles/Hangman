@@ -1,8 +1,8 @@
 Button{
     -fx-text-fill: white;
     -fx-background-color: #1F487E;
-    -fx-max-height: 200px;
     -fx-font-size: 20px;
+    -fx-max-width: 400px;
 }
 Button:hover{
     -fx-background-color: #6290C8;

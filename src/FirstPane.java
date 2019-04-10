@@ -14,6 +14,8 @@ public class FirstPane extends BorderPane {
 
         startButton.setMaxSize(400, 0);
         quitButton.setMaxSize(400, 0);
+        startButton.setMinHeight(300);
+        quitButton.setMinHeight(300);
         startButton.setPadding(new Insets(20,20,20,20));
         quitButton.setPadding(new Insets(20,20,20,20));
 
@@ -26,7 +28,6 @@ public class FirstPane extends BorderPane {
         topPane.setCenter(startButton);
         botPane.setCenter(quitButton);
 
-        this.setPadding(new Insets(100,0,100,0));
         this.setTop(topPane);
         this.setBottom(botPane);
     }

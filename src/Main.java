@@ -15,7 +15,7 @@ public class Main extends Application {
         MyScene scene = new MyScene();
         stage.setScene(scene);
         scene.getStylesheets().add("styling.css");
-        stage.setResizable(false);
+        stage.setResizable(true);
         stage.setTitle("Hangman");
         stage.show();
     }

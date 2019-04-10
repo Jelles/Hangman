@@ -1,0 +1,6 @@
+Button{
+    -fx-min-height: 300px;
+}
+Text{
+    -fx-text-alignment: center;
+}

@@ -1,13 +1,15 @@
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
 
-public class SecondPane extends BorderPane {
+public class SecondPane extends VBox {
 
     private Insets padding;
 
     public SecondPane(MyScene scene){
         padding = new Insets(50,0,50,0);
+        getStylesheets().add("second-pane.css");
 
         Button easyButton = new Button();
         Button mediumButton = new Button();
@@ -30,25 +32,19 @@ public class SecondPane extends BorderPane {
         backButton.setPrefSize(250,60);
 
         BorderPane topPane = new BorderPane();
-        BorderPane midPane = new BorderPane();
         BorderPane botPane = new BorderPane();
         BorderPane midTopPane = new BorderPane();
         BorderPane midBotPane = new BorderPane();
 
-        midPane.setTop(midTopPane);
-        midPane.setBottom(midBotPane);
 
         topPane.setCenter(easyButton);
         midTopPane.setCenter(mediumButton);
         midBotPane.setCenter(hardButton);
         botPane.setCenter(backButton);
 
-        midTopPane.setPadding(padding);
-        midBotPane.setPadding(padding);
-        this.setPadding(padding);
-
-        this.setTop(topPane);
-        this.setCenter(midPane);
-        this.setBottom(botPane);
+//        this.setTop(topPane);
+//        this.setCenter(midPane);
+//        this.setBottom(botPane);
+        getChildren().addAll(topPane,midTopPane,midBotPane,botPane);
     }
 }
