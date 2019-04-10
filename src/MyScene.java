@@ -39,6 +39,22 @@ public class MyScene extends Scene {
         wordList.add("house");
         wordList.add("car");
         wordList.add("mouse");
+        wordList.add("window");
+        wordList.add("shoe");
+        wordList.add("haircut");
+        wordList.add("lamp");
+        wordList.add("chair");
+        wordList.add("couch");
+        wordList.add("backpack");
+        wordList.add("greece");
+        wordList.add("netherlands");
+        wordList.add("lake");
+        wordList.add("boat");
+        wordList.add("fence");
+        wordList.add("discord");
+        wordList.add("message");
+        wordList.add("water");
+        wordList.add("speedboat");
     }
 
     public String getRandomWord() {
